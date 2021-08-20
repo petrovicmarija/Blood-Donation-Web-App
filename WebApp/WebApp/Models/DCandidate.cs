@@ -10,7 +10,7 @@ namespace WebApp.Models
     public class DCandidate
     {
         [Key]
-        public int Id { get; set; }
+        public int id { get; set; }
         [Column(TypeName = "nvarchar(100)")]
         public string FullName { get; set; }
         [Column(TypeName = "nvarchar(16)")]

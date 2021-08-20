@@ -47,7 +47,7 @@ namespace WebApp.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutDCandidate(int id, DCandidate dCandidate)
         {
-            dCandidate.Id = id;
+            dCandidate.id = id;
 
             _context.Entry(dCandidate).State = EntityState.Modified;
 
@@ -79,7 +79,7 @@ namespace WebApp.Controllers
             _context.DCandidates.Add(dCandidate);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetDCandidate", new { id = dCandidate.Id }, dCandidate);
+            return CreatedAtAction("GetDCandidate", new { id = dCandidate.id }, dCandidate);
         }
 
         // DELETE: api/DCandidate/5
@@ -100,7 +100,7 @@ namespace WebApp.Controllers
 
         private bool DCandidateExists(int id)
         {
-            return _context.DCandidates.Any(e => e.Id == id);
+            return _context.DCandidates.Any(e => e.id == id);
         }
     }
 }
