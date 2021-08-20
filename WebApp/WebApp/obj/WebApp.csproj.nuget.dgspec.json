@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\OneDrive\\Desktop\\yt-example\\WebApp\\WebApp\\WebApp.csproj": {}
+    "C:\\Users\\PC\\OneDrive\\Desktop\\Blood-Donation-Web-App\\WebApp\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\OneDrive\\Desktop\\yt-example\\WebApp\\WebApp\\WebApp.csproj": {
+    "C:\\Users\\PC\\OneDrive\\Desktop\\Blood-Donation-Web-App\\WebApp\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\OneDrive\\Desktop\\yt-example\\WebApp\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\OneDrive\\Desktop\\Blood-Donation-Web-App\\WebApp\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "C:\\Users\\PC\\OneDrive\\Desktop\\yt-example\\WebApp\\WebApp\\WebApp.csproj",
+        "projectPath": "C:\\Users\\PC\\OneDrive\\Desktop\\Blood-Donation-Web-App\\WebApp\\WebApp\\WebApp.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\OneDrive\\Desktop\\yt-example\\WebApp\\WebApp\\obj\\",
+        "outputPath": "C:\\Users\\PC\\OneDrive\\Desktop\\Blood-Donation-Web-App\\WebApp\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.Bcl.AsyncInterfaces": {
               "target": "Package",
               "version": "[1.1.1, )"
